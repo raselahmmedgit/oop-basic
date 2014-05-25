@@ -21,7 +21,6 @@ namespace OOPBasicInheritance_01
             aChecking.Deposit(2000);
             aChecking.Withdraw(1500);
 
-
             List<Account> accounts = new List<Account>();
             accounts.Add(aSavingsAccount);
             accounts.Add(aChecking);

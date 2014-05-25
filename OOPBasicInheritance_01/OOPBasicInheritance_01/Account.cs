@@ -12,6 +12,11 @@ namespace OOPBasicInheritance_01
         public string Name { set; get; }
         public double Balance { get; private set; }
 
+        public Account()
+        {
+            int a = 10;
+        }
+
         public void Deposit(double amount)
         {
             Balance += amount;

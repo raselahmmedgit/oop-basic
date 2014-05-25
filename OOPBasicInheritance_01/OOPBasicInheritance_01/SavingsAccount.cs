@@ -10,6 +10,11 @@ namespace OOPBasicInheritance_01
     {
         public double InterestAmount { set; get; }
 
+        public SavingsAccount() : base()
+        {
+            int p = 100;
+        }
+
         public override string Withdraw(double amount)
         {
             if (Balance - amount >= 0)
